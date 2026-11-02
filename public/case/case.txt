@@ -1,0 +1,10 @@
+there will be a master layout, with compnent of header, footer, and navbar, which will be shown on every page
+so on master layout we will have a section of "content"
+
+and navigation that will have titles of 'students' & 'courses'
+
+on students page there will be a lists of Students, on click it will go to student_details page. showing
+their profiles and courses taken 
+
+on courses page will do the same, list of courses and on click showing all the students that are taking it
+
