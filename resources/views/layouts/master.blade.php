@@ -8,7 +8,7 @@
 
     <link rel="stylesheet" href="{{ asset('css/bootstrap.min.css') }}">
 </head>
-<body class="d-flex flex-column">
+<body class="d-flex flex-column m-0 min-vh-100">
 
     @include('components.header')
     @include('components.navbar')

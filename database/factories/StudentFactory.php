@@ -20,7 +20,8 @@ class StudentFactory extends Factory
         return [
             'name' => fake()->name(),
             // 'nim'=> $this->faker->unique()->numerify('2#02######'),
-            'nim' =>fake()->unique()->regexify('(2[6-0]|[30])02[0-9]{6}')
+            'nim' =>fake()->unique()->regexify('(2[6-9]|[30])02[1-9]{6}'),
+            // 'nim' => fake()->unique()->randomElement(['26', '27', '28', '29', '30']) . '02' . fake()->numerify('######'),
         ];
     }
 }
